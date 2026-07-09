@@ -58,11 +58,11 @@ document.addEventListener('click', function(e) {
                 'img/carousel/architecture/arch5.JPG'
             ],
             portrait: [
-                'img/carousel/portrait/port1.jpg',
-                'img/carousel/portrait/port2.jpg',
-                'img/carousel/portrait/port3.jpg',
-                'img/carousel/portrait/port4.jpg',
-                'img/carousel/portrait/port5.jpg'
+                'img/carousel/portrait/port1.JPG',
+                'img/carousel/portrait/port2.JPG',
+                'img/carousel/portrait/port3.JPG',
+                'img/carousel/portrait/port4.JPG',
+                'img/carousel/portrait/port5.JPG'
             ],
             culture: [
                 'img/carousel/culture/cult1.jpg',
