@@ -51,11 +51,11 @@ document.addEventListener('click', function(e) {
                 'img/carousel/daily_life/daily5.jpg'
             ],
             architecture: [
-                'img/carousel/architecture/arch1.jpg',
-                'img/carousel/architecture/arch2.jpg',
-                'img/carousel/architecture/arch3.jpg',
-                'img/carousel/architecture/arch4.jpg',
-                'img/carousel/architecture/arch5.jpg'
+                'img/carousel/architecture/arch1.JPG',
+                'img/carousel/architecture/arch2.JPG',
+                'img/carousel/architecture/arch3.JPG',
+                'img/carousel/architecture/arch4.JPG',
+                'img/carousel/architecture/arch5.JPG'
             ],
             portrait: [
                 'img/carousel/portrait/port1.jpg',
