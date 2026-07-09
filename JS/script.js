@@ -93,7 +93,7 @@ document.addEventListener('click', function(e) {
 
         // Function to open the modal and load carousel images
         function openProjectModal(projectName, title) {
-            modal.style.display = 'flex'; // Use flex to center the modal content
+            modal.style.display = 'block'; // Use flex to center the modal content
             modalTitle.textContent = title;
             currentProjectImages = projectsData[projectName] || [];
             currentSlideIndex = 0; // Reset to first slide
@@ -133,15 +133,21 @@ document.addEventListener('click', function(e) {
         }
 
         // Event Listeners for project titles
-        document.querySelectorAll('.menu-card-title a').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault(); // Prevent default link behavior
-                const projectName = this.dataset.project;
-                const projectTitle = this.textContent;
-                openProjectModal(projectName, projectTitle);
-            });
-        });
+       document.querySelectorAll('.menu-card-title a').forEach(link => {
+    // Fungsi utama untuk membuka modal
+    const triggerModal = function(e) {
+        e.preventDefault(); 
+        const projectName = link.dataset.project;
+        const projectTitle = link.textContent;
+        openProjectModal(projectName, projectTitle);
+    };
 
+    // Mendengarkan klik biasa (PC)
+    link.addEventListener('click', triggerModal);
+    
+    // Mendengarkan sentuhan layar (Mobile) tanpa delay
+    link.addEventListener('touchstart', triggerModal, { passive: false });
+});
         // Event Listeners for carousel navigation
         prevSlideButton.addEventListener('click', () => {
             if (currentSlideIndex > 0) {
@@ -171,7 +177,7 @@ document.addEventListener('click', function(e) {
 
         // Optional: Close modal with Escape key
         document.addEventListener('keydown', (event) => {
-            if (event.key === 'Escape' && modal.style.display === 'flex') {
+            if (event.key === 'Escape' && modal.style.display === 'block') {
                 modal.style.display = 'none';
             }
         });
