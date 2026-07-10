@@ -39,8 +39,8 @@ document.addEventListener('click', function(e) {
                 'img/carousel/sport/sport4.JPG',
                 'img/carousel/sport/Sport5.JPG',
                 'img/carousel/sport/Sport6.JPG',
-                'img/carousel/sport/Sport7.JPG',
-                'img/carousel/sport/Sport8.JPG',
+                'img/carousel/sport/Sport7.png',
+                'img/carousel/sport/Sport8.png',
                 'img/carousel/sport/Sport9.png'
             ],
             daily_life: [
