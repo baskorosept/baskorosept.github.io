@@ -663,5 +663,26 @@ footer .credit a {
     html {
         font-size: 55%;
     }
+/* Kode baru untuk foto menu */
+    .project .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem; 
+    }
+
+    .project .row .menu-card {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 2rem; 
+    }
+
+    .project .row .menu-card img {
+        border-radius: 12px;       
+        width: 100%;               
+        height: auto;              
+        max-height: 250px;         
+        object-fit: contain;       
+        background-color: #1a1a1a; 
+    }
 }
 
