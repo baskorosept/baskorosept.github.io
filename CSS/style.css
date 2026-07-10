@@ -677,12 +677,12 @@ footer .credit a {
     }
 
     .project .row .menu-card img {
-        border-radius: 12px;       
-        width: 100%;               
-        height: auto;              
-        max-height: 250px;         
-        object-fit: contain;       
+        border-radius: 50%;       
+        width: 150px;               
+        height: 150px;              
+        object-fit: cover;       
         background-color: #1a1a1a; 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
 }
 
