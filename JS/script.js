@@ -36,12 +36,12 @@ document.addEventListener('click', function(e) {
                 'img/carousel/sport/Sport1.JPG',
                 'img/carousel/sport/Sport2.JPG',
                 'img/carousel/sport/Sport3.JPG',
-                'img/carousel/sport/Sport4.JPG',
+                'img/carousel/sport/sport4.JPG',
                 'img/carousel/sport/Sport5.JPG',
                 'img/carousel/sport/Sport6.JPG',
-                'img/carousel/sport/Sport7.PNG',
-                'img/carousel/sport/Sport8.PNG',
-                'img/carousel/sport/Sport9.PNG'
+                'img/carousel/sport/Sport7.JPG',
+                'img/carousel/sport/Sport8.JPG',
+                'img/carousel/sport/Sport9.png'
             ],
             daily_life: [
                 'img/carousel/daily_life/daily1.jpg',
@@ -55,7 +55,7 @@ document.addEventListener('click', function(e) {
                 'img/carousel/architecture/arch2.JPG',
                 'img/carousel/architecture/arch3.JPG',
                 'img/carousel/architecture/arch4.JPG',
-                'img/carousel/architecture/arch5.JPG'
+                'img/carousel/architecture/arch5.jpg'
             ],
             portrait: [
                 'img/carousel/portrait/port1.JPG',
